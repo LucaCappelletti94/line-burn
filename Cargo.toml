@@ -1,0 +1,18 @@
+[package]
+name = "line-burn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+burn = "0.19.1"
+indicatif = "0.18.3"
+rand = "0.9.2"
+
+[dev-dependencies]
+burn-autodiff = "0.19.1"
+burn-cuda = "0.19.1"
+burn-ndarray = "0.19.1"
+csv = "1.4.0"
+plotters = "0.3.7"
+rand = "0.9.2"
+serde = { version = "1.0.228", features = ["derive"] }
